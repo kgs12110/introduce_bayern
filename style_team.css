@@ -1,0 +1,215 @@
+*{
+    list-style: none;
+    text-decoration: none;
+    border-collapse: collapse;
+    margin: 0px;
+    padding: 0px;
+    color: black;
+    
+    font-family:'Noto Sans KR', sans-serif;
+}
+
+h1{
+    font-size: 60px;
+}
+
+.intro{
+    background-image: url("image/banner.png") ;
+    width: 100%;
+    height: 950px;
+}
+
+.header{
+    width: 100%;
+    margin:auto;
+    background: darkred;
+    text-align: center;
+    height: 90px;
+}
+
+.nav{
+    display: flex;
+    line-height: 86px;
+    text-align: center;
+}
+
+.nav > li{
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: center;
+    margin:auto auto auto auto;
+}
+
+.nav > li > a {
+    color: white;
+    text-align: center;
+}
+
+.banner{
+    width: 100%;
+    margin:231px auto 231px auto;
+    text-align: center;
+}
+.banner > h1{
+    color:black;
+    font-size: 80px;
+    
+}
+.banner > h4{
+    color:red;
+    font-size: 20px;
+}
+
+.partner{
+    display: flex;
+    width: 100%;
+    background-color: darkred;
+    margin : auto;
+    position: relative;
+}
+
+.partner > li {
+    width: 720px;
+    height: 132px;
+    background-image: url("image/partnerlist.JPG") ;
+    margin:auto auto auto auto;
+}
+
+
+/* ▼ mainpage----------------- */
+
+.mainpage{
+    width: 100%;
+    height:100%;
+    background: white;
+    margin-top:-132px;
+}
+
+.mainpage > h1{
+    padding-top: 160px;
+    text-align: center;
+    background: white;
+    color:black;
+    font-size:85px;
+}
+
+.mainpage > .mainpage_text2 > h4{
+    font-size: 25px;
+    font-weight: lighter;
+    text-align: center;
+    color: red;
+}
+
+.mainpage > .mainpage_text3{
+    font-size : 17px;
+    text-align: center;
+}
+
+.mainpage > .recentgame > h1{
+    font-size:60x;
+    text-align: center;
+}
+
+.mainpage > .recentgame > .recentgame_results{
+    display: flex;
+    width: 100%;
+    background-color: darkred;
+    margin : auto;
+    position: relative;
+}
+
+.mainpage > .recentgame > .recentgame_results > li{
+    width: 750px;
+    height: 132px;
+    background-image: url("image/gameresult.jpg") ;
+    margin:auto auto auto auto;
+}
+
+.recentgame > .SCORER{
+    text-align: center;
+}
+
+.news > h1{
+    font-size:60x;
+    text-align: center;
+}
+
+.news > .news_img,
+.news_text{
+    text-align: center;
+}
+
+.profile{
+    text-align: right;
+}
+
+/* ▼ HISTORY page-------------- */
+
+.banner_history{
+    width: 100%;
+    margin:231px auto 231px auto;
+    text-align: center;
+}
+
+.wrap_history > .intro_history{
+    background-image: url("image/fcbhistory.jpg");
+    width: 100%;
+    height: 990px;
+}
+
+.h_mainpage > .h_mainpage_text3 > .history1a{
+    text-align: center;
+    color : white;
+}
+
+/* CITY page-------------- */
+
+.banner_city{
+    width: 100%;
+    margin:231px auto 231px auto;
+    text-align: center;
+}
+
+.wrap_city > .intro_city{
+    background-image: url("image/munich.webp");
+    width: 100%;
+    height: 990px;
+}
+
+/* ARENA page-------------- */
+
+.banner_arena{
+    width: 100%;
+    margin:231px auto 231px auto;
+    text-align: center;
+}
+
+.wrap_arena > .intro_arena{
+    background-image: url("image/arena.jpg");
+    width: 100%;
+    height: 990px;
+}
+
+/* TEAM page-------------- */
+
+.banner_team{
+    width: 100%;
+    margin:231px auto 231px auto;
+    text-align: center;
+}
+
+.wrap_team > .intro_team{
+    background-image: url("image/team.jpg");
+    width: 100%;
+    height: 990px;
+}
+
+/* quiz page-------------- */
+
+
+
+.wrap_quiz > .intro_quiz{
+    background-image: url("image/leon.jpg");
+    width: 100%;
+    height: 990px;
+}
